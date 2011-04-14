@@ -12,7 +12,7 @@ This is not a new problem, and solutions have existed for years. Our favourite i
 
 The biggest benefit you get by using [`Deferred`][D] objects in JavaScript is a consistent pattern for organizing callbacks and easily obtaining future values.
 
-[`Deferred`][D] objects also make it easy to have async processes dependent on each other, including waiting for a list of async processes to finish, with optional notifications for the first completion or the first error. This simplifies flow control and makes your code much easier to reason about.
+[`Deferred`][D] objects also make it easy to have async processes dependent on each other, including waiting for a list of async processes to finish, with optional notifications for the first completion or the first error. This simplifies flow control, makes your code much easier to reason about, and frees you from manually threading callback parameters through every async function call.
 
 Requirements
 ------------
